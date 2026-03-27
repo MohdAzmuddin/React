@@ -1,0 +1,39 @@
+
+* **Functional Component** (React)
+  👉 A **simple function** that returns UI
+
+* **Class Component**
+  👉 A **class (blueprint)** that returns UI
+
+
+## 🔹 3. State (data handling)
+
+* **Functional**
+  👉 Uses **Hooks** (like `useState`)
+
+* **Class**
+  👉 Uses `this.state`
+
+---
+
+## 🔹 4. Complexity
+
+* **Functional**
+  👉 Simple and easy
+
+* **Class**
+  👉 More complex and longer code
+---
+
+## 🔹 6. Performance
+
+* **Functional**
+  👉 Faster and cleaner
+
+* **Class**
+  👉 Slightly heavier
+
+## ✅ Easy Example
+
+* **Functional Component** 👉 Like a **simple function (easy)** 😊
+* **Class Component** 👉 Like a **big structure (complex)** 🏗️
