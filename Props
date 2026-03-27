@@ -1,0 +1,35 @@
+
+* **Props** (short form of *properties*) in React
+  👉 are used to **pass data from one component to another**
+
+👉 Think of props like **arguments in a function**
+
+## 🔹 Simple Example
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+function App() {
+  return <Welcome name="Azmuddin" />;
+}
+```
+
+👉 Output: **Hello, Azmuddin**
+
+---
+
+## 🔹 Easy Explanation
+
+* `App` → sending data (`name="Azmuddin"`)
+* `Welcome` → receiving data (`props.name`)
+
+---
+
+## 🔹 Real-life Example
+
+👉 Props are like **giving instructions to a worker**
+
+* You say: “Make tea with sugar” ☕
+* Worker follows your instruction
+
